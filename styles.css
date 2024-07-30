@@ -56,7 +56,16 @@ nav ul li a:hover {
     text-align: center;
 }
 
+.profile-pic {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .hero-content {
+    
     max-width: 700px;
 }
 
@@ -104,6 +113,7 @@ nav ul li a:hover {
     margin: 0 auto;
     line-height: 1.8;
 }
+
 
 /* Projects Section */
 #projects {
@@ -223,4 +233,22 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    z-index: 1000;
+}
+
+/* Social Icons */
+.socials {
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #f0a500;
 }
