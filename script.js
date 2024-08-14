@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Add click event listener to each link
     links.forEach(link => {
         link.addEventListener('click', function(event) {
-            event.preventDefault(); // Prevent the default anchor behavior
+            event.preventDefault(); 
             
             // Get the target section's ID from the href
             const targetId = this.getAttribute('href').substring(1);
