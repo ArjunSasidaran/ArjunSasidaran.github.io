@@ -63,8 +63,8 @@ nav ul li a:hover {
 
 .profile-pic {
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -422,8 +422,8 @@ footer {
     }
 
     .profile-pic {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
     }
 
     .experience-item {
