@@ -54,7 +54,7 @@ nav ul li a:hover {
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('hero-bg.jpg');
     color: #fff;
-    height: auto;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -359,24 +359,27 @@ footer {
 /* Media Queries */
 @media screen and (max-width: 1200px) {
     .project-item {
-        width: 80%;
+        width: 90%;
         height: auto;
         flex-direction: column; /* Stack image and text vertically */
         align-items: center;  
     }
 
     .project-info {
-        max-width: 100%;
+        max-width: 90%;
         text-align: center;
         padding: 20px 0;
     }
 
     .project-item img {
-        max-width: 80%;
+        max-width: 90%;
         margin: 0 auto;
         display: block; 
         padding-bottom: 20px; 
         
+    }
+    .experience-item{
+        max-width: 90%;
     }
 }
 
@@ -428,10 +431,6 @@ footer {
 
     .job-title {
         font-size: 1.25rem;
-    }
-    
-    .project-item {
-        padding: 15px;
     }
     
     .project-info h3 {
