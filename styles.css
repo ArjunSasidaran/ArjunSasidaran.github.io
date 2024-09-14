@@ -54,7 +54,7 @@ nav ul li a:hover {
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('hero-bg.jpg');
     color: #fff;
-    height: 100vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,7 +70,7 @@ nav ul li a:hover {
 }
 
 .hero-content {
-    
+    margin-top: 100px;
     max-width: 700px;
 }
 
@@ -362,6 +362,7 @@ footer {
         width: 80%;
         height: auto;
         flex-direction: column; /* Stack image and text vertically */
+        align-items: center;  
     }
 
     .project-info {
@@ -373,25 +374,20 @@ footer {
     .project-item img {
         max-width: 80%;
         margin: 0 auto;
+        display: block; 
+        padding-bottom: 20px; 
+        
     }
 }
 
 @media screen and (max-width: 768px) {
+
     .hero h1 {
         font-size: 2.5em;
     }
 
     .hero p {
         font-size: 1.2em;
-    }
-
-    .project-item {
-        width: 100%;
-    }
-
-    .project-item img {
-        max-width: 100%;
-        margin-left: 0;
     }
 
     nav ul {
